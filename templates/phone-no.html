@@ -1,0 +1,20 @@
+<h3>Please enter your phone number:</h3>
+
+<p>+{{ randint(0,9) }}{{ randint(0,9) }}</p>
+
+<fieldset>
+    {% for i in range(11) %}
+        <select name="" id="">
+            {% for i in range(9) %}
+                <option value="">{{randint(0, 9)}}</option>
+            {% endfor %}
+        </select>
+    {% endfor %}
+</fieldset>
+
+<style>
+
+p, fieldset {
+    display: inline;
+}
+</style>
